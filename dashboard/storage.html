@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Storage Management</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow p-4">
+      <h1 class="text-3xl font-bold text-purple-800">Storage Management</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="p-6">
+      <h2 class="text-2xl font-semibold mb-4 text-purple-800">Database and File System Overview</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-white border border-gray-200">
+          <thead>
+            <tr class="bg-gray-100 text-gray-600">
+              <th class="py-2 px-4 border-b">Database Type</th>
+              <th class="py-2 px-4 border-b">Size</th>
+              <th class="py-2 px-4 border-b">Opened Files</th>
+              <th class="py-2 px-4 border-b">Last File Created</th>
+              <th class="py-2 px-4 border-b">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="hover:bg-gray-50">
+              <td class="py-2 px-4 border-b">PostgreSQL</td>
+              <td class="py-2 px-4 border-b">150 GB</td>
+              <td class="py-2 px-4 border-b">12</td>
+              <td class="py-2 px-4 border-b">2023-10-01</td>
+              <td class="py-2 px-4 border-b">
+                <button class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">Remove Folder</button>
+                <button class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600">Open Folder</button>
+              </td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+              <td class="py-2 px-4 border-b">MySQL</td>
+              <td class="py-2 px-4 border-b">200 GB</td>
+              <td class="py-2 px-4 border-b">8</td>
+              <td class="py-2 px-4 border-b">2023-09-28</td>
+              <td class="py-2 px-4 border-b">
+                <button class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">Remove Folder</button>
+                <button class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600">Open Folder</button>
+              </td>
+            </tr>
+            <tr class="hover:bg-gray-50">
+              <td class="py-2 px-4 border-b">File System</td>
+              <td class="py-2 px-4 border-b">500 GB</td>
+              <td class="py-2 px-4 border-b">20</td>
+              <td class="py-2 px-4 border-b">2023-10-02</td>
+              <td class="py-2 px-4 border-b">
+                <button class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600">Remove Folder</button>
+                <button class="bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600">Open Folder</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
