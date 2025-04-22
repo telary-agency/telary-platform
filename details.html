@@ -20,7 +20,7 @@
           <table class="table-auto w-full border-collapse border border-gray-200">
             <thead>
               <tr class="bg-gray-100">
-                <th class="border border-gray-300 px-4 py-2 text-left">Catégorie / Outil</th>
+                <th class="border border-gray-300 px-4 py-2 text-left">Catégorie</th>
                 <th class="border border-gray-300 px-4 py-2 text-left">Produits</th>
                 <th class="border border-gray-300 px-4 py-2 text-center">Essentielle</th>
                 <th class="border border-gray-300 px-4 py-2 text-center">Standard</th>
@@ -30,9 +30,9 @@
             <tbody>
               <!-- Data Processing Tech -->
               <tr>
-                <td class="border border-gray-300 px-4 py-2 font-bold bg-gray-100" rowspan="2">Data Processing Tech</td>
+                <td class="border border-gray-300 px-4 py-2 font-bold bg-gray-100" rowspan="5">Data Processing Tech</td>
                 <td class="border border-gray-300 px-4 py-2">
-                  <strong>Trino</strong> <br />
+                  <strong>Apache Trino</strong> <br />
                   <span class="text-sm text-gray-600">Netflix, LinkedIn</span>
                 </td>
                 <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
@@ -44,8 +44,35 @@
                   <strong>DuckDB</strong> <br />
                   <span class="text-sm text-gray-600">MotherDuck, Data Engineers</span>
                 </td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">
+                  <strong>Pandas</strong> <br />
+                  <span class="text-sm text-gray-600"></span>
+                </td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">
+                  <strong>Polars</strong> <br />
+                  <span class="text-sm text-gray-600"></span>
+                </td>
                 <td class="border border-gray-300 px-4 py-2 text-center">❌</td>
                 <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">
+                  <strong>Sklearn</strong> <br />
+                  <span class="text-sm text-gray-600"></span>
+                </td>
+                <td class="border border-gray-300 px-4 py-2 text-center">❌</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">❌</td>
                 <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
               </tr>
               <!-- Workflow Orchestration -->
@@ -55,7 +82,7 @@
                   <strong>Apache Airflow</strong> <br />
                   <span class="text-sm text-gray-600">Airbnb, Lyft</span>
                 </td>
-                <td class="border border-gray-300 px-4 py-2 text-center">❌</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
                 <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
                 <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
               </tr>
@@ -66,9 +93,40 @@
                   <strong>Metabase</strong> <br />
                   <span class="text-sm text-gray-600">Postmates, Medium</span>
                 </td>
+                <td class="border border-gray-300 px-4 py-2 text-center">❌</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+              </tr>
+              <!-- Ingestion -->
+              <tr>
+                <td class="border border-gray-300 px-4 py-2 font-bold bg-gray-100" rowspan="1">Ingestion</td>
+                <td class="border border-gray-300 px-4 py-2">
+                  <strong>Airbyte</strong> <br />
+                  <span class="text-sm text-gray-600"></span>
+                </td>
                 <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
                 <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
                 <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+              </tr>
+              <!-- Search engine -->
+              <tr>
+                <td class="border border-gray-300 px-4 py-2 font-bold bg-gray-100" rowspan="2">Search Engine</td>
+                <td class="border border-gray-300 px-4 py-2">
+                  <strong>Elasticsearch</strong> <br />
+                  <span class="text-sm text-gray-600"></span>
+                </td>
+                <td class="border border-gray-300 px-4 py-2 text-center">à la demande</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">à la demande</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">à la demande</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">
+                  <strong>TypeSense</strong> <br />
+                  <span class="text-sm text-gray-600"></span>
+                </td>
+                <td class="border border-gray-300 px-4 py-2 text-center">à la demande</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">à la demande</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">à la demande</td>
               </tr>
               <!-- Pricing -->
               <tr class="bg-gray-100">
