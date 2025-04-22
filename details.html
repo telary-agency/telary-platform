@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telary - Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans">
+    <!-- Header -->
+    <header class="bg-purple-700 text-white py-6 text-center">
+      <h1 class="text-3xl font-bold">Details des offres</h1>
+    </header>
+
+    <!-- Comparison Table -->
+    <section class="py-10 px-6">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-2xl font-bold text-center mb-6 text-purple-800">Comparatif des outils utilisés</h2>
+        <div class="overflow-x-auto">
+          <table class="table-auto w-full border-collapse border border-gray-200">
+            <thead>
+              <tr class="bg-gray-100">
+                <th class="border border-gray-300 px-4 py-2 text-left">Catégorie / Outil</th>
+                <th class="border border-gray-300 px-4 py-2 text-left">Produits</th>
+                <th class="border border-gray-300 px-4 py-2 text-center">Essentielle</th>
+                <th class="border border-gray-300 px-4 py-2 text-center">Standard</th>
+                <th class="border border-gray-300 px-4 py-2 text-center">Entreprise</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Data Processing Tech -->
+              <tr>
+                <td class="border border-gray-300 px-4 py-2 font-bold bg-gray-100" rowspan="2">Data Processing Tech</td>
+                <td class="border border-gray-300 px-4 py-2">
+                  <strong>Trino</strong> <br />
+                  <span class="text-sm text-gray-600">Netflix, LinkedIn</span>
+                </td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+              </tr>
+              <tr>
+                <td class="border border-gray-300 px-4 py-2">
+                  <strong>DuckDB</strong> <br />
+                  <span class="text-sm text-gray-600">MotherDuck, Data Engineers</span>
+                </td>
+                <td class="border border-gray-300 px-4 py-2 text-center">❌</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+              </tr>
+              <!-- Workflow Orchestration -->
+              <tr>
+                <td class="border border-gray-300 px-4 py-2 font-bold bg-gray-100" rowspan="1">Workflow Orchestration</td>
+                <td class="border border-gray-300 px-4 py-2">
+                  <strong>Apache Airflow</strong> <br />
+                  <span class="text-sm text-gray-600">Airbnb, Lyft</span>
+                </td>
+                <td class="border border-gray-300 px-4 py-2 text-center">❌</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+              </tr>
+              <!-- BI Tools -->
+              <tr>
+                <td class="border border-gray-300 px-4 py-2 font-bold bg-gray-100" rowspan="1">BI Tools</td>
+                <td class="border border-gray-300 px-4 py-2">
+                  <strong>Metabase</strong> <br />
+                  <span class="text-sm text-gray-600">Postmates, Medium</span>
+                </td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">✔️</td>
+              </tr>
+              <!-- Pricing -->
+              <tr class="bg-gray-100">
+                <td colspan="2" class="border border-gray-300 px-4 py-2 font-bold text-right">Prix Mensuel</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">1200€</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">2400€</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">3600€+</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-500 text-sm py-6">
+      © 2025 Votre Data Platform - Tous droits réservés
+    </footer>
+  </body>
+</html>
